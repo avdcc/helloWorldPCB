@@ -1,0 +1,631 @@
+EESchema Schematic File Version 4
+LIBS:helloWorld-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_Small D1
+U 1 1 5C4E2F70
+P 2400 3125
+F 0 "D1" V 2446 3057 50  0000 R CNN
+F 1 "D_Small" V 2355 3057 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2400 3125 50  0001 C CNN
+F 3 "~" V 2400 3125 50  0001 C CNN
+	1    2400 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2975 2400 3025
+$Comp
+L Device:D_Small D2
+U 1 1 5C4EF017
+P 2900 3125
+F 0 "D2" V 2946 3057 50  0000 R CNN
+F 1 "D_Small" V 2855 3057 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2900 3125 50  0001 C CNN
+F 3 "~" V 2900 3125 50  0001 C CNN
+	1    2900 3125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX2
+U 1 1 5C4EF01E
+P 3150 2800
+F 0 "MX2" H 3236 3017 60  0000 C CNN
+F 1 "MX-1U" H 3236 2943 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3125 2775 60  0001 C CNN
+F 3 "" H 3125 2775 60  0001 C CNN
+	1    3150 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 3225
+Wire Wire Line
+	2825 2300 2825 2775
+$Comp
+L MX_Alps_Hybrids:MX-1U MX1
+U 1 1 5C4E6D19
+P 2650 2800
+F 0 "MX1" H 2736 3017 60  0000 C CNN
+F 1 "MX-1U" H 2736 2943 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2625 2775 60  0001 C CNN
+F 3 "" H 2625 2775 60  0001 C CNN
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 2975 2400 2975
+Wire Wire Line
+	3325 2300 3325 2775
+Text GLabel 2825 2300 1    50   Input ~ 0
+COL0
+Text GLabel 3325 2300 1    50   Input ~ 0
+COL1
+Text GLabel 2075 3225 0    50   Input ~ 0
+ROW0
+Text GLabel 2075 3925 0    50   Input ~ 0
+ROW1
+Connection ~ 2825 2775
+Connection ~ 3325 2775
+Connection ~ 2900 3225
+Wire Wire Line
+	2900 3225 2400 3225
+Wire Wire Line
+	2900 3225 3375 3225
+Wire Wire Line
+	2900 2975 2900 3025
+Wire Wire Line
+	2900 2975 3125 2975
+$Comp
+L Device:D_Small D3
+U 1 1 5C52466E
+P 3375 3125
+F 0 "D3" V 3421 3057 50  0000 R CNN
+F 1 "D_Small" V 3330 3057 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3375 3125 50  0001 C CNN
+F 3 "~" V 3375 3125 50  0001 C CNN
+	1    3375 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3375 2975 3375 3025
+$Comp
+L Device:D_Small D4
+U 1 1 5C524676
+P 3875 3125
+F 0 "D4" V 3921 3057 50  0000 R CNN
+F 1 "D_Small" V 3830 3057 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3875 3125 50  0001 C CNN
+F 3 "~" V 3875 3125 50  0001 C CNN
+	1    3875 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2300 3800 2775
+$Comp
+L MX_Alps_Hybrids:MX-1U MX3
+U 1 1 5C524685
+P 3625 2800
+F 0 "MX3" H 3711 3017 60  0000 C CNN
+F 1 "MX-1U" H 3711 2943 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3600 2775 60  0001 C CNN
+F 3 "" H 3600 2775 60  0001 C CNN
+	1    3625 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2975 3375 2975
+Connection ~ 3800 2775
+Wire Wire Line
+	3875 2975 3875 3025
+Wire Wire Line
+	3875 2975 4100 2975
+Connection ~ 3375 3225
+Wire Wire Line
+	3375 3225 3875 3225
+$Comp
+L Device:D_Small D5
+U 1 1 5C574454
+P 2400 3825
+F 0 "D5" V 2446 3757 50  0000 R CNN
+F 1 "D_Small" V 2355 3757 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2400 3825 50  0001 C CNN
+F 3 "~" V 2400 3825 50  0001 C CNN
+	1    2400 3825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 3675 2400 3725
+$Comp
+L Device:D_Small D6
+U 1 1 5C57445C
+P 2900 3825
+F 0 "D6" V 2946 3757 50  0000 R CNN
+F 1 "D_Small" V 2855 3757 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2900 3825 50  0001 C CNN
+F 3 "~" V 2900 3825 50  0001 C CNN
+	1    2900 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX6
+U 1 1 5C574463
+P 3150 3500
+F 0 "MX6" H 3236 3717 60  0000 C CNN
+F 1 "MX-1U" H 3236 3643 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3125 3475 60  0001 C CNN
+F 3 "" H 3125 3475 60  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 3925
+$Comp
+L MX_Alps_Hybrids:MX-1U MX5
+U 1 1 5C57446C
+P 2650 3500
+F 0 "MX5" H 2736 3717 60  0000 C CNN
+F 1 "MX-1U" H 2736 3643 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2625 3475 60  0001 C CNN
+F 3 "" H 2625 3475 60  0001 C CNN
+	1    2650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 3675 2400 3675
+Connection ~ 2825 3475
+Connection ~ 3325 3475
+Connection ~ 2900 3925
+Wire Wire Line
+	2900 3925 2400 3925
+Wire Wire Line
+	2900 3925 3375 3925
+Wire Wire Line
+	2900 3675 2900 3725
+Wire Wire Line
+	2900 3675 3125 3675
+$Comp
+L Device:D_Small D7
+U 1 1 5C57447C
+P 3375 3825
+F 0 "D7" V 3421 3757 50  0000 R CNN
+F 1 "D_Small" V 3330 3757 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3375 3825 50  0001 C CNN
+F 3 "~" V 3375 3825 50  0001 C CNN
+	1    3375 3825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3375 3675 3375 3725
+$Comp
+L Device:D_Small D8
+U 1 1 5C574484
+P 3875 3825
+F 0 "D8" V 3921 3757 50  0000 R CNN
+F 1 "D_Small" V 3830 3757 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3875 3825 50  0001 C CNN
+F 3 "~" V 3875 3825 50  0001 C CNN
+	1    3875 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX8
+U 1 1 5C57448B
+P 4125 3500
+F 0 "MX8" H 4211 3717 60  0000 C CNN
+F 1 "MX-1U" H 4211 3643 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4100 3475 60  0001 C CNN
+F 3 "" H 4100 3475 60  0001 C CNN
+	1    4125 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX7
+U 1 1 5C574493
+P 3625 3500
+F 0 "MX7" H 3711 3717 60  0000 C CNN
+F 1 "MX-1U" H 3711 3643 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3600 3475 60  0001 C CNN
+F 3 "" H 3600 3475 60  0001 C CNN
+	1    3625 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3675 3375 3675
+Connection ~ 3800 3475
+Connection ~ 4300 3475
+Wire Wire Line
+	3875 3675 3875 3725
+Wire Wire Line
+	3875 3675 4100 3675
+Connection ~ 3375 3925
+Wire Wire Line
+	3375 3925 3875 3925
+Connection ~ 3875 3925
+Wire Wire Line
+	3875 3925 4375 3925
+$Comp
+L Device:D_Small D9
+U 1 1 5C57D804
+P 2400 4525
+F 0 "D9" V 2446 4457 50  0000 R CNN
+F 1 "D_Small" V 2355 4457 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2400 4525 50  0001 C CNN
+F 3 "~" V 2400 4525 50  0001 C CNN
+	1    2400 4525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 4375 2400 4425
+$Comp
+L Device:D_Small D10
+U 1 1 5C57D80C
+P 2900 4525
+F 0 "D10" V 2946 4457 50  0000 R CNN
+F 1 "D_Small" V 2855 4457 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2900 4525 50  0001 C CNN
+F 3 "~" V 2900 4525 50  0001 C CNN
+	1    2900 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX10
+U 1 1 5C57D813
+P 3150 4200
+F 0 "MX10" H 3236 4417 60  0000 C CNN
+F 1 "MX-1U" H 3236 4343 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3125 4175 60  0001 C CNN
+F 3 "" H 3125 4175 60  0001 C CNN
+	1    3150 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 4625
+$Comp
+L MX_Alps_Hybrids:MX-1U MX9
+U 1 1 5C57D81C
+P 2650 4200
+F 0 "MX9" H 2736 4417 60  0000 C CNN
+F 1 "MX-1U" H 2736 4343 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2625 4175 60  0001 C CNN
+F 3 "" H 2625 4175 60  0001 C CNN
+	1    2650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 4375 2400 4375
+Connection ~ 2825 4175
+Connection ~ 3325 4175
+Connection ~ 2900 4625
+Wire Wire Line
+	2900 4625 2400 4625
+Wire Wire Line
+	2900 4625 3375 4625
+Wire Wire Line
+	2900 4375 2900 4425
+Wire Wire Line
+	2900 4375 3125 4375
+$Comp
+L Device:D_Small D11
+U 1 1 5C57D82C
+P 3375 4525
+F 0 "D11" V 3421 4457 50  0000 R CNN
+F 1 "D_Small" V 3330 4457 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3375 4525 50  0001 C CNN
+F 3 "~" V 3375 4525 50  0001 C CNN
+	1    3375 4525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3375 4375 3375 4425
+$Comp
+L Device:D_Small D12
+U 1 1 5C57D834
+P 3875 4525
+F 0 "D12" V 3921 4457 50  0000 R CNN
+F 1 "D_Small" V 3830 4457 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3875 4525 50  0001 C CNN
+F 3 "~" V 3875 4525 50  0001 C CNN
+	1    3875 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX11
+U 1 1 5C57D843
+P 3625 4200
+F 0 "MX11" H 3711 4417 60  0000 C CNN
+F 1 "MX-1U" H 3711 4343 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3600 4175 60  0001 C CNN
+F 3 "" H 3600 4175 60  0001 C CNN
+	1    3625 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4375 3375 4375
+Connection ~ 3800 4175
+Wire Wire Line
+	3875 4375 3875 4425
+Wire Wire Line
+	3875 4375 4100 4375
+Connection ~ 3375 4625
+Wire Wire Line
+	3375 4625 3875 4625
+Connection ~ 3875 4625
+Wire Wire Line
+	3875 4625 4375 4625
+$Comp
+L Device:D_Small D13
+U 1 1 5C58FE9F
+P 2400 5225
+F 0 "D13" V 2446 5157 50  0000 R CNN
+F 1 "D_Small" V 2355 5157 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2400 5225 50  0001 C CNN
+F 3 "~" V 2400 5225 50  0001 C CNN
+	1    2400 5225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 5075 2400 5125
+$Comp
+L Device:D_Small D14
+U 1 1 5C58FEA7
+P 2900 5225
+F 0 "D14" V 2946 5157 50  0000 R CNN
+F 1 "D_Small" V 2855 5157 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2900 5225 50  0001 C CNN
+F 3 "~" V 2900 5225 50  0001 C CNN
+	1    2900 5225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX14
+U 1 1 5C58FEAE
+P 3150 4900
+F 0 "MX14" H 3236 5117 60  0000 C CNN
+F 1 "MX-1U" H 3236 5043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3125 4875 60  0001 C CNN
+F 3 "" H 3125 4875 60  0001 C CNN
+	1    3150 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 5325
+$Comp
+L MX_Alps_Hybrids:MX-1U MX13
+U 1 1 5C58FEB7
+P 2650 4900
+F 0 "MX13" H 2736 5117 60  0000 C CNN
+F 1 "MX-1U" H 2736 5043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2625 4875 60  0001 C CNN
+F 3 "" H 2625 4875 60  0001 C CNN
+	1    2650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 5075 2400 5075
+Connection ~ 2825 4875
+Connection ~ 3325 4875
+Connection ~ 2900 5325
+Wire Wire Line
+	2900 5325 2400 5325
+Wire Wire Line
+	2900 5325 3375 5325
+Wire Wire Line
+	2900 5075 2900 5125
+Wire Wire Line
+	2900 5075 3125 5075
+$Comp
+L Device:D_Small D15
+U 1 1 5C58FEC7
+P 3375 5225
+F 0 "D15" V 3421 5157 50  0000 R CNN
+F 1 "D_Small" V 3330 5157 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3375 5225 50  0001 C CNN
+F 3 "~" V 3375 5225 50  0001 C CNN
+	1    3375 5225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3375 5075 3375 5125
+$Comp
+L Device:D_Small D16
+U 1 1 5C58FECF
+P 3875 5225
+F 0 "D16" V 3921 5157 50  0000 R CNN
+F 1 "D_Small" V 3830 5157 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3875 5225 50  0001 C CNN
+F 3 "~" V 3875 5225 50  0001 C CNN
+	1    3875 5225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX16
+U 1 1 5C58FED6
+P 4125 4900
+F 0 "MX16" H 4211 5117 60  0000 C CNN
+F 1 "MX-1U" H 4211 5043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4100 4875 60  0001 C CNN
+F 3 "" H 4100 4875 60  0001 C CNN
+	1    4125 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-1U MX15
+U 1 1 5C58FEDE
+P 3625 4900
+F 0 "MX15" H 3711 5117 60  0000 C CNN
+F 1 "MX-1U" H 3711 5043 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3600 4875 60  0001 C CNN
+F 3 "" H 3600 4875 60  0001 C CNN
+	1    3625 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5075 3375 5075
+Wire Wire Line
+	3875 5075 3875 5125
+Wire Wire Line
+	3875 5075 4100 5075
+Connection ~ 3375 5325
+Wire Wire Line
+	3375 5325 3875 5325
+Connection ~ 3875 5325
+Wire Wire Line
+	3875 5325 4375 5325
+Text GLabel 3800 2300 1    50   Input ~ 0
+COL2
+Text GLabel 4300 2275 1    50   Input ~ 0
+COL3
+Wire Wire Line
+	4300 2275 4300 2775
+Connection ~ 4300 2775
+$Comp
+L MX_Alps_Hybrids:MX-1U MX4
+U 1 1 5C52467D
+P 4125 2800
+F 0 "MX4" H 4211 3017 60  0000 C CNN
+F 1 "MX-1U" H 4211 2943 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4100 2775 60  0001 C CNN
+F 3 "" H 4100 2775 60  0001 C CNN
+	1    4125 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3875 3225
+Wire Wire Line
+	3875 3225 4375 3225
+Connection ~ 4300 4175
+$Comp
+L MX_Alps_Hybrids:MX-1U MX12
+U 1 1 5C57D83B
+P 4125 4200
+F 0 "MX12" H 4211 4417 60  0000 C CNN
+F 1 "MX-1U" H 4211 4343 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4100 4175 60  0001 C CNN
+F 3 "" H 4100 4175 60  0001 C CNN
+	1    4125 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2075 4625 0    50   Input ~ 0
+ROW2
+Text GLabel 2075 5325 0    50   Input ~ 0
+ROW3
+$Comp
+L promicro:ProMicro U1
+U 1 1 5C58F768
+P 7275 3250
+F 0 "U1" H 7275 4287 60  0000 C CNN
+F 1 "ProMicro" H 7275 4181 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" H 7375 2200 60  0001 C CNN
+F 3 "" H 7375 2200 60  0000 C CNN
+	1    7275 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 4875
+Wire Wire Line
+	4300 4875 4300 5825
+Wire Wire Line
+	3800 4875 3800 5750
+Connection ~ 3800 4875
+Text GLabel 7975 2900 2    50   Input ~ 0
+COL2
+Text GLabel 7975 3300 2    50   Input ~ 0
+ROW0
+Text GLabel 7975 3400 2    50   Input ~ 0
+ROW1
+Text GLabel 6575 3000 0    50   Input ~ 0
+COL1
+Text GLabel 6575 3500 0    50   Input ~ 0
+ROW2
+Text GLabel 6575 3200 0    50   Input ~ 0
+ROW3
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C58C469
+P 8325 2600
+F 0 "SW1" H 8325 2885 50  0000 C CNN
+F 1 "SW_Push" H 8325 2794 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 8325 2800 50  0001 C CNN
+F 3 "" H 8325 2800 50  0001 C CNN
+	1    8325 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 2600 8125 2600
+Wire Wire Line
+	8525 2600 8525 2700
+Wire Wire Line
+	8525 2700 7975 2700
+Text GLabel 6575 2900 0    50   Input ~ 0
+COL2
+Text GLabel 6575 3100 0    50   Input ~ 0
+COL0
+Text GLabel 6575 3600 0    50   Input ~ 0
+COL3
+Wire Wire Line
+	2825 3475 2825 4175
+Wire Wire Line
+	3325 3475 3325 4175
+Wire Wire Line
+	2825 4175 2825 4875
+Wire Wire Line
+	3325 4175 3325 4875
+Wire Wire Line
+	2825 4875 2825 5625
+Wire Wire Line
+	3325 4875 3325 5675
+Wire Wire Line
+	2300 3225 2400 3225
+Wire Wire Line
+	2300 3925 2400 3925
+Wire Wire Line
+	2300 4625 2400 4625
+Wire Wire Line
+	2300 5325 2400 5325
+Wire Wire Line
+	2825 3025 2825 3475
+Wire Wire Line
+	3325 3000 3325 3475
+Wire Wire Line
+	3800 3025 3800 3475
+Wire Wire Line
+	3800 3725 3800 4175
+Wire Wire Line
+	3800 4425 3800 4875
+Wire Wire Line
+	4300 3000 4300 3475
+Wire Wire Line
+	4300 3700 4300 4175
+Wire Wire Line
+	4300 4400 4300 4875
+Wire Wire Line
+	2075 3225 2400 3225
+Wire Wire Line
+	2075 3925 2400 3925
+Wire Wire Line
+	2075 4625 2400 4625
+Wire Wire Line
+	2075 5325 2400 5325
+Wire Wire Line
+	2825 2775 2825 3475
+Wire Wire Line
+	3325 2775 3325 3475
+Wire Wire Line
+	3800 2775 3800 3475
+Wire Wire Line
+	3800 3475 3800 4175
+Wire Wire Line
+	3800 4175 3800 4875
+Wire Wire Line
+	4300 2775 4300 3475
+Wire Wire Line
+	4300 3475 4300 4175
+Wire Wire Line
+	4300 4175 4300 4875
+$EndSCHEMATC
